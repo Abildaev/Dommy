@@ -3084,15 +3084,15 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 .main-banner-wrapper .carousel-btn-block .carousel-btn,
 .listing_single_property_slider .owl-controls .owl-nav .owl-prev,
 .listing_single_property_slider .owl-controls .owl-nav .owl-next {
-  border: 1px solid #ffffff;
   border-radius: 8px;
   color: #fff;
+  background-color: #FF5A5F;
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
-  height: 82px;
+  height: 42px;
   width: 42px;
-  line-height: 82px;
+  line-height: 42px;
   text-align: center;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
@@ -3118,7 +3118,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 .main-banner-wrapper .carousel-btn-block .carousel-btn:hover {
   background-color: #ffffff;
-  color: #006c70;
+  color: #FF5A5F;
   opacity: 1;
 }
 .main-banner-wrapper .carousel-btn-block .carousel-btn.left-btn{
