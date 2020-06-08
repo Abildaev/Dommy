@@ -1037,10 +1037,10 @@ header.header-nav.menu_style_home_one.dashbord_pages{
 header.header-nav.menu_style_home_one.navbar-scrolltofixed.stricky.animated,
 header.header-nav.home2.style_one.navbar-scrolltofixed.stricky.animated,
 header.header-nav.menu_style_home_eight.navbar-scrolltofixed.stricky.animated{
-  -webkit-animation-duration: .5s;
-  animation-duration: .5s;
-  -webkit-animation-delay: 500ms;
-  animation-delay: 500ms;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
 }
 
 header.header-nav.menu_style_home_one.stricky-fixed a.navbar_brand .logo1,
@@ -4346,6 +4346,21 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   margin: 10px 10px 0 10px;
   position: relative;
 }
+
+.feat_property .thumb__my {
+  max-width: 220px;
+  border-radius: 8px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  overflow: hidden;
+  margin: 20px auto;
+  position: relative;
+}
+
+
 .feat_property .thumb img{
   opacity: .6;  
 }
