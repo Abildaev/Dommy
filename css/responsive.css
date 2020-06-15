@@ -117,7 +117,7 @@
 	.fn-xl{float: none !important;}
 	.home-one{margin-top: -151px;}
 	header.header-nav.menu_style_home_one .ace-responsive-menu > li > a{padding: 37px 10px 27px 5px;}
-	header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing{width: 165px; margin-bottom: 45px;}
+	header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing{width: 165px;}
 	.inbox_chatting_box .chatting_content li.media.reply.first {margin: 0;}
 	.m_box.our-dashbord:before {width: 25%;}
 	.cnddte_fvrt.our-dashbord:before {width: 25%;} 
@@ -170,8 +170,7 @@
 	header.header-nav.style_one .ace-responsive-menu > li > a{padding: 27px 10px 27px 5px;}
 	header.header-nav.menu_style_home_three .ace-responsive-menu > li > a,
 	header.header-nav.menu_style_home_four .ace-responsive-menu > li > a{padding: 30px 20px 30px 10px;}
-	header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing{height: 33px;top: 25px;width: 100px;}
-	header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing a{top: -25px;}
+	header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing{height: 33px;width: 100px;}
 	header.header-nav.menu_style_home_one.style2 ul.ace-responsive-menu li.add_listing a{line-height: .7;}
 	.sign_up_btn .btn {width: auto;}
 	.cnddte_fvrt.our-dashbord:before {width: 35%;}
@@ -306,8 +305,6 @@
 @media only screen and (max-width:1024px){
 	.dn-md{display: none !important;}
 	.fn-md {float: none !important;}
-	header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing{top: 20px;}
-	header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing a{top: -20px;}
 	header.header-nav.menu_style_home_one.style2 a.navbar_brand{margin-top: 10px;}
 	header.header-nav.menu_style_home_one.style2 ul.ace-responsive-menu li.add_listing a{line-height: normal;}
 	header.header-nav.menu_style_home_one.style2 ul.ace-responsive-menu li.list_s:before{top: 15px;}
@@ -315,11 +312,9 @@
 	.feat_property.list.favorite_page.style2 .thumb{width: 200px;}
 	.feat_property.list.favorite_page.style2 .details .tc_content{padding-top: 0;}
 
-	.logo1 {
-		margin-top: 25px;
-	}
+
 	.logo2 {
-		margin-top: 0;
+		margin-top: 35px;
 	}
 
 	header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing a {
@@ -482,7 +477,6 @@
 
 
 	.start_partner{margin-bottom: 30px;}
-	.footer_about_widget{padding-left: 15px;padding-right: 15px;}
 	.footer_qlink_widget{padding-left: 0px;}
 	.footer_mailchimp_form .col-auto input.form-control{width: auto;}
 	.footer_menu_widget{margin-bottom: 15px;}

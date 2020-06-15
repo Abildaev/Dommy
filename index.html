@@ -36,7 +36,7 @@
 		<header class="header-nav menu_style_home_one home4 navbar-scrolltofixed stricky main-menu">
 			<div class="container-fluid p0">
 				<!-- Ace Responsive Menu -->
-				<nav>
+				<nav class="d-flex align-items-center">
 					<!-- Menu Toggle btn-->
 					<div class="menu-toggle">
 						<img class="nav_logo_img img-fluid" src="images/logo.svg" alt="logo.svg">
@@ -53,25 +53,25 @@
 					</a>
 					<!-- Responsive Menu Structure-->
 					<!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
-					<ul id="respMenu" class="ace-responsive-menu text-right" data-menu-style="horizontal">
+					<ul id="respMenu" class="ace-responsive-menu text-right d-flex align-items-center justify-content-end" data-menu-style="horizontal">
 						<li>
-							<a href="#"><span class="title">Главная</span></a>
+							<a href="#"><span class="title">Список объектов</span></a>
 
 						</li>
 						<li>
 							<a href="#"><span class="title">Карта объектов</span></a>
 						</li>
 						<li>
-							<a href="#"><span class="title">Список объектов</span></a>
+							<a href="#"><span class="title">Застройщики</span></a>
 
 						</li>
 						<li>
-							<a href="#"><span class="title">Компании</span></a>
+							<a href="#"><span class="title">Новости</span></a>
 						</li>
 						<li class="list-inline-item list_s"><a href="#" class="btn flaticon-user" data-toggle="modal"
 								data-target=".bd-example-modal-lg"> <span class="dn-lg">Войти</span></a></li>
-						<li class="list-inline-item add_listing"><a href="page-add-new-property.html"><span
-									class="flaticon-plus"></span><span class="dn-lg">Добавить объект</span></a></li>
+						<li class="list-inline-item add_listing"><a href="page-add-new-property.html" class="d-flex align-items-center h-100 justify-content-center"><span
+									class="flaticon-plus d-xl-none"></span><span class="dn-lg ">Зарегистрироваться</span></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -237,24 +237,22 @@
 			<nav id="menu" class="stylehome1">
 				<ul>
 					<li>
-						<a href="#"><span class="title">Главная</span></a>
+						<a href="#"><span class="title">Список объектов</span></a>
 
 					</li>
 					<li>
 						<a href="#"><span class="title">Карта объектов</span></a>
 					</li>
 					<li>
-						<a href="#"><span class="title">Список объектов</span></a>
+						<a href="#"><span class="title">Застройщики</span></a>
 
 					</li>
 					<li>
-						<a href="#"><span class="title">Компании</span></a>
+						<a href="#"><span class="title">Новости</span></a>
 					</li>
 
 					<li><a href="page-login.html"><span class="flaticon-user"></span> Вход</a></li>
 					<li><a href="page-register.html"><span class="flaticon-edit"></span> Регистрация</a></li>
-					<li class="cl_btn"><a class="btn btn-block btn-lg btn-thm circle" href="#"><span
-								class="flaticon-plus"></span>Добавить объект</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -1167,36 +1165,35 @@
 		<section class="footer_one">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 pr0 pl0">
+					<div class="col-sm-6 col-md-6 col-lg-4 d-lg-flex justify-content-lg-center">
 						<div class="footer_about_widget">
 							<h4>О нас</h4>
 							<p>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так.
 							</p>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+					<div class="col-sm-6 col-md-6 col-lg-4 d-lg-flex justify-content-lg-center">
 						<div class="footer_qlink_widget">
 							<h4>Ссылки</h4>
 							<ul class="list-unstyled">
 								<li><a href="#">Карта объектов</a></li>
 								<li><a href="#">Список объектов</a></li>
-								<li><a href="#">Компании</a></li>
+								<li><a href="#">Застройщики</a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+					<div class="col-sm-6 col-md-6 col-lg-4 d-lg-flex justify-content-lg-center">
 						<div class="footer_contact_widget">
 							<h4>Контакты</h4>
 							<ul class="list-unstyled">
 								<li><a href="#">info@findhouse.com</a></li>
-								<li><a href="#">г Бишкек</a></li>
-								<li><a href="#">8007, Кыргызстан.</a></li>
+								<li><a href="#">г Бишкек 8007, Кыргызстан</a></li>
 								<li><a href="#">+996 555 555 555</a></li>
 								<li><a href="#">+996 700 005 005</a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+					<!-- <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
 						<div class="footer_social_widget">
 							<h4>Мы в соц сетях</h4>
 							<ul class="mb30">
@@ -1219,19 +1216,42 @@
 								</div>
 							</form>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>
+		<div class="container">
+			<hr>
+		</div>
+		
 
 		<!-- Our Footer Bottom Area -->
-		<section class="footer_middle_area pt30 pb30">
+		<section class="footer_middle_area my-end-footer">
 			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="copyright-widget text-center">
-							<p>© 2020 Dommy. Все права защищены.</p>
+				<div class="row d-flex flex-column-reverse flex-lg-row">
+					<div class="col-lg-6">
+						<div class="copyright-widget ">
+							<p class="text-left">© 2020 Dommy. Все права защищены.</p>
 						</div>
+					</div>
+					
+					<div class="col-lg-6 d-flex justify-content-lg-end">
+						<a href="#">
+							<i class="fa fa-globe" aria-hidden="true"></i>
+							Русский(RU)
+						</a>
+						<a href="#" class="ml-4">
+							<i class="fa fa-usd" aria-hidden="true"></i>
+							USD
+						</a>
+						<ul class="ml-4">
+							<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-google"></i></a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
