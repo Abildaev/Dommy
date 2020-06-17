@@ -1007,15 +1007,11 @@ header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing{
 }
 
 header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing:hover {
-  background-color: #ff5a5f;
-  color : #fff;
+  background-color: #f1f0f0;
+ 
 
 }
 
-header.header-nav.menu_style_home_one ul.ace-responsive-menu li.add_listing:hover span{
-  color : #fff;
-
-}
 
 header.header-nav.menu_style_home_one.home9 ul.ace-responsive-menu li.add_listing{
   background-color: #5f1e8f;
