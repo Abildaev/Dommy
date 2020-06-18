@@ -524,18 +524,18 @@
         })
     }
 
-    if ($('.best_property_slider').length) {
+    $('.best_property_slider-photo').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade: false,
+        autoplay: false,
+        dots: true,
+        autoplaySpeed: 2000,
+    })
 
-        $('.best_property_slider-photo').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true,
-            fade: false,
-            autoplay: false,
-            dots: true,
-            autoplaySpeed: 2000,
-        })
-    }
+  
+    
 
 
 
@@ -980,7 +980,7 @@
         $("#show_advbtn, #show_advbtn2").on('click', function () {
             $("body").removeClass("mobile_ovyh");
         });
-        $("#prncgs").on('click', function () {
+        $(".prncgs").on('click', function () {
             $(".dd_content2").toggle();
         });
         $("#prncgs2").on('click', function () {
