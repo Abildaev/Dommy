@@ -125,6 +125,7 @@
 	.feature_property_home6_slider.owl-carousel.owl-theme .owl-stage-outer,
 	.our_agents_home6_slider.owl-carousel.owl-theme .owl-stage-outer{display: block;}
 
+
 	header.header-nav.menu_style_home_three .ace-responsive-menu > li > a{padding: 30px 25px 30px 10px;}
 	header.header-nav.menu_style_home_four.home8 .ace-responsive-menu > li > a{padding: 18px 15px 18px 15px;}
 	header.header-nav.menu_style_home_five a.navbar_brand{margin-right: 15px;}
@@ -620,6 +621,8 @@
 	/* Home Content*/
 
 	.home1-advnc-search ul li:nth-child(3) .form-group .form-control{width: 135px;}
+
+	.my__thumb { width: 100%;}
 
 	.home1-advnc-search .dropdown.bootstrap-select>.dropdown-toggle{margin-bottom: 10px;}
 	.home1-advnc-search ul.apeartment_area_list li{margin-right: 15px;}
